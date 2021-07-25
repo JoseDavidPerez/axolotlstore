@@ -93,6 +93,10 @@ h3 {
     justify-content: space-around;
     align-items: center;
 }
+
+.imagen-sobremi{
+    border-radius: 25px;
+}
 .contenedor-parrafo-boton {
     width: 42%;
 }
@@ -141,6 +145,7 @@ span {
 .owl-nav {
     text-align: center;
 }
+
 .contenedor-porque {
     display: flex;
     justify-content: space-around;
@@ -291,10 +296,11 @@ span {
     }
     .publicacion {
         width: 85%;
-        margin: auto;
+        margin: 15px;
     }
     .imagen-sobremi {
         width: 90%;
+        border-radius: 25px;    
     }
 }
 @media(min-width: 700px) and (max-width: 900px) {
@@ -309,5 +315,6 @@ span {
     }
     .imagen-sobremi {
         width: 50%;
+        border-radius: 25px;
     }
 }
