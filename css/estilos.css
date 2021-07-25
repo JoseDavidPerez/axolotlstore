@@ -1,0 +1,313 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+li {
+    list-style: none;
+    margin-right: 25px;
+    color: white;
+}
+#primero {
+    font-size: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu i {
+    display: none;
+}
+.menu p {
+    color: white;
+}
+.lista {
+    display: flex;
+}
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.titular {
+    text-align: center;
+    margin-top: 200px;
+}
+h1 {
+    font-size: 60px;
+    margin: 0;
+    color: white;
+}
+h2 {
+    font-size: 25px;
+    color: white;
+}
+.titular a {
+    font-size: 14px;
+    background: #5cb8ff;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    color: white;
+}
+.publicacion a {
+    font-size: 14px;
+    background: #5cb8ff;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    color: white;
+}
+#que-esperas a {
+    font-size: 14px;
+    background: #5cb8ff;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    color: white;
+}
+header {
+    background-image: url(../resources/Portada.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+/*Aqui inicia seccion sobre nosotros */
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+.contenedor-sobremi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-parrafo-boton {
+    width: 42%;
+}
+.contenedor-parrafo-final p {
+    font-size: 18px;
+}
+.parrafo-final {
+    margin-bottom: 30px;
+}
+.contenedor-servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: black;
+}
+.pardo {
+    background: rgb( 169, 223, 191);
+}
+.leucitico {
+    background: rgb(243, 189, 244);
+}
+.golden {
+    background: rgb( 255, 248, 143);
+}
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+.servicio img {
+    float: right;
+}
+.servicio p {
+    font-size: 18px;
+    height: 200px;
+}
+span {
+    font-size: 80px;
+    color: blue;
+}
+.owl-nav {
+    text-align: center;
+}
+.contenedor-porque {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contenedor-porque h4 {
+    margin: 0;
+    font-size: 20px;
+}
+.contenedor-porque p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.porque-singular {
+    width: 28%;
+}
+#blog {
+    background: #F9FAFC;
+    padding-top: 50px;
+}
+.contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+.publicacion {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
+}
+#blog img {
+    width: 100%
+}
+#blog {
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+#blog p {
+    color: #5a6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+#blog h4 {
+    margin-left: 20px;
+}
+#blog a {
+    display: inline-block;
+    margin-left: 20px;
+}
+.publiacion-segunda img {
+    height: 245px;
+}
+.primero-parrafo {
+    padding: 0px 20px 20px 20px !important;
+}
+#que-esperas {
+    background: rgb(72,72,72);
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+#que-esperas {
+    font-size: 23px;
+    color: #fff;
+
+}
+#que-esperas a {
+    padding: 20px 45px 15px 45px;
+    transition: 1s;
+}
+#que-esperas a:hover {
+    color: black;
+    transition: 1s;
+    transform: scale(1.1);
+    display: inline-block;
+}
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+.menu-icon {
+    display: none;
+    width: 100px;
+}
+@media(max-width: 800px) {
+    header {
+        background-size: cover;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+    nav .lista {
+        flex-direction: column;
+        display: flex;
+    }
+    .menu-icon {
+        display: block;
+        width: 25px;
+    }
+    .menu i {
+        display: block;
+    }
+    .titular {
+        margin-top: 54px;
+    }
+    h1 {
+        font-size: 49px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .contenedor-sobremi {
+        flex-direction: column;
+    }
+    .contenedor-parrafo-boton {
+        width: 90%;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+    .servicio {
+        width: 72%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 46px;
+    }
+    .contenedor-porque {
+        flex-direction: column;
+    }
+    .porque-singular {
+        width: 95%;
+    }
+    .contenedor-publicaciones {
+        flex-direction: column;
+    }
+    .publicacion {
+        width: 85%;
+        margin: auto;
+    }
+    .imagen-sobremi {
+        width: 90%;
+    }
+}
+@media(min-width: 700px) and (max-width: 900px) {
+    header {
+        height: 53vh;
+    }
+    .servicio {
+        width: 44%;
+    }
+    .publicacion {
+        width: 62%;
+    }
+    .imagen-sobremi {
+        width: 50%;
+    }
+}
