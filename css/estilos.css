@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif!important;
     margin: 0;
     padding: 0;
 }
@@ -119,20 +119,20 @@ h3 {
     color: black;
 }
 .pardo {
-    background: rgb( 169, 223, 191);
+    background: rgb( 96, 128, 0);
 }
 .leucitico {
     background: rgb(243, 189, 244);
 }
 .golden {
-    background: rgb( 255, 248, 143);
+    background: rgb( 255, 219, 77);
 }
 .servicio h4 {
     font-size: 30px;
     margin: 0;
 }
 .servicio img {
-    float: right;
+    float: right;   
 }
 .servicio p {
     font-size: 18px;
@@ -295,7 +295,7 @@ span {
         flex-direction: column;
     }
     .publicacion {
-        width: 85%;
+        width: 90%;
         margin: 15px;
     }
     .imagen-sobremi {
@@ -312,9 +312,14 @@ span {
     }
     .publicacion {
         width: 62%;
+        margin: 30px;
     }
     .imagen-sobremi {
         width: 50%;
         border-radius: 25px;
+    }
+
+    .contenedor-publicaciones{
+        align-items: center;
     }
 }
