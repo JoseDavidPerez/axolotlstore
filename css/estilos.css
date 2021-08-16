@@ -146,6 +146,9 @@ span {
     text-align: center;
 }
 
+.instagram-media{   
+    align-items: center;
+}
 .contenedor-porque {
     display: flex;
     justify-content: space-around;
